@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 10 11:19:43 ART 2022","Wed Aug 10 11:19:44 ART 2022","1566","","Login Test","","Login Test","Deberia loguear con credenciales validas","Deberia loguear con credenciales validas",""
