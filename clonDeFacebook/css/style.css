@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body {
+    background-color: #eff2f5;
+    display: flex;
+    justify-content: center;   
+}
+
+/* Principal */
+.contenedor {
+ /* background-color: rgb(1, 143, 251) */
+display: flex;
+justify-content: space-between;
+max-width: 980px;
+height: 400px;
+margin: 200px auto;
+margin-top: 100px;
+}
+
+/* Principal, va la caja del logo y texto */
+.caja1 {
+    /* background-color: blueviolet; */
+    width: 500px;
+    height: 100%;
+    padding-right: 32px;
+   /* border-radius: 5px; */
+}
+
+.logo {
+ /* background-color: rgb(232, 76, 19); */
+    height: 106px;
+    margin-top:70px;
+
+}
+
+.caja1 h2 {
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    margin-left: 30px;
+   
+}
+
+/* Lo que va adentro de caja, el formulario */
+
+.caja2 {
+    /* background-color: rgb(206, 23, 23); */
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 90%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+    border-radius: 12px;
+    text-align: center;
+    height: 100%;
+}
+
+.email, .contraseña {
+  display: block;
+  width: 98%;
+  height: 80px;
+  padding: 1px 9px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 12px;
+  font-size: 17px;
+  outline: none;
+}
+
+.iniciar {
+	background-color:#1876f2;
+	border-radius:8px;
+	border:1px solid #1876f2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c2aac2;
+    margin-top: 20px;
+  
+}
+.iniciar:hover {
+	background-color:#096feb;
+}
+.iniciar:active {
+	position:relative;
+	top:1px;
+}
+
+
+.olvi {
+    /* background-color: #33ab1b; */
+    text-align: none;
+    color: #1877f2;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.olvi:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 16px 0;
+    border: 1px solid #ddd;
+}
+
+.ncuenta {
+	background-color:#42b72a;
+	border-radius:9px;
+	border:1px solid #42b72a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:15px 11px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #dbdbdb;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.ncuenta:hover {
+	background-color:#18ab29;
+}
+.ncuenta:active {
+	position:relative;
+	top:1px;
+}
+.caja2 p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 28px;
+}
+        
+.página {
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+}
+
+.página:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px){
+    .contenedor {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .caja1 {
+        margin: auto;
+        text-align: center;
+        width: 400px;
+        padding-right: auto;
+    }
+    .caja2 {
+        margin: auto;
+    }
+    form{
+        margin-top: 50px;
+    }
+}
